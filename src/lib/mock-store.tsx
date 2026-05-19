@@ -23,12 +23,12 @@ interface StoreApi extends StoreState {
 const uid = () => Math.random().toString(36).slice(2, 10);
 
 const seedMembers: Member[] = [
-  { id: "m1", fullName: "Aisha Kamau", gender: "female", phone: "+254 712 345 678", nationalId: "29845671", address: "Nairobi, Westlands", email: "aisha@example.com", dateJoined: "2024-02-14", active: true },
-  { id: "m2", fullName: "Brian Otieno", gender: "male", phone: "+254 722 991 233", nationalId: "31002984", address: "Kisumu, Milimani", email: "brian@example.com", dateJoined: "2024-04-02", active: true },
-  { id: "m3", fullName: "Catherine Wanjiru", gender: "female", phone: "+254 733 887 221", nationalId: "27634551", address: "Nakuru, CBD", dateJoined: "2023-11-21", active: true },
-  { id: "m4", fullName: "Daniel Mwangi", gender: "male", phone: "+254 701 223 998", nationalId: "33119087", address: "Thika Road", email: "dan.m@example.com", dateJoined: "2025-01-09", active: true },
-  { id: "m5", fullName: "Esther Achieng", gender: "female", phone: "+254 715 110 442", nationalId: "29881076", address: "Mombasa, Nyali", dateJoined: "2024-08-30", active: true },
-  { id: "m6", fullName: "Felix Ngugi", gender: "male", phone: "+254 720 554 008", nationalId: "30887412", address: "Eldoret", dateJoined: "2025-03-17", active: false },
+  { id: "m1", fullName: "Aisha Kamau", gender: "female", phone: "+256 712 345 678", nationalId: "29845671", address: "Nairobi, Westlands", email: "aisha@example.com", dateJoined: "2024-02-14", active: true },
+  { id: "m2", fullName: "Brian Otieno", gender: "male", phone: "+256 722 991 233", nationalId: "31002984", address: "Kisumu, Milimani", email: "brian@example.com", dateJoined: "2024-04-02", active: true },
+  { id: "m3", fullName: "Catherine Wanjiru", gender: "female", phone: "+256 733 887 221", nationalId: "27634551", address: "Nakuru, CBD", dateJoined: "2023-11-21", active: true },
+  { id: "m4", fullName: "Daniel Mwangi", gender: "male", phone: "+256 701 223 998", nationalId: "33119087", address: "Thika Road", email: "dan.m@example.com", dateJoined: "2025-01-09", active: true },
+  { id: "m5", fullName: "Esther Achieng", gender: "female", phone: "+256 715 110 442", nationalId: "29881076", address: "Mombasa, Nyali", dateJoined: "2024-08-30", active: true },
+  { id: "m6", fullName: "Felix Ngugi", gender: "male", phone: "+256 720 554 008", nationalId: "30887412", address: "Eldoret", dateJoined: "2025-03-17", active: false },
 ];
 
 const seedLoans: Loan[] = [
@@ -61,9 +61,9 @@ const seedNotifications: AppNotification[] = [
 ];
 
 const seedManager: ManagerProfile = {
-  name: "James Karanja",
-  email: "manager@umoja-sacco.co.ke",
-  phone: "+254 711 000 111",
+  name: "James Kasanja",
+  email: "manager@shadrach-loans.co.ug",
+  phone: "+256 711 000 111",
 };
 
 const StoreContext = createContext<StoreApi | null>(null);
